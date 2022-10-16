@@ -1,3 +1,5 @@
+import './styles.css'
+
 const CarsCard = ({ data }) => (
     <div key={data.id_veiculo} className="car">
         <h1>{data.modelo_veiculo}</h1>
