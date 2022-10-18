@@ -1,0 +1,20 @@
+.titulo {
+    margin: 15px;
+    text-align: center;
+    color: #000;
+}
+
+.titulo h1 {
+    font-weight: bold;
+    font-size: 65px;    
+}
+
+.inputBusca {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.inputBusca input {
+    border: 1px solid #000;
+}
