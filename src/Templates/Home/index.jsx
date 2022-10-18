@@ -46,7 +46,9 @@ class Home extends Component {
   }
 
   render() {
-    const { database } = this.state;
+    const { database, page, carsPerPage, allCars } = this.state;
+
+    const noMoreCars = (page + carsPerPage) >= allCars.length;
 
     return (
       <>
@@ -56,7 +58,7 @@ class Home extends Component {
           ))}
         </div>
         <div className="container-button">
-          <Button onClick={this.loadMoreCars} text="Load More Cars" />
+          <Button onClick={this.loadMoreCars} disabled={noMoreCars} text="Load More Cars" />
         </div>
       </>
     );

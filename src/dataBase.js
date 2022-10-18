@@ -56,6 +56,7 @@ const database = [
         "imagem_veiculo": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202208/20220819/bmw-m3-3.0-i6-twinturbo-gasolina-competition-m-steptronic-wmimagem11272077020.jpg"
     },
     {
+        "id_veiculo": 5,
         "modelo_veiculo": "HONDA CIVIC",
         "descricao_veiculo": "2.0 16V FLEXONE EXL 4P CVT",
         "valor_veiculo": "R$ 128.900",
@@ -69,6 +70,7 @@ const database = [
         "imagem_veiculo": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202209/20220922/honda-civic-2.0-16v-flexone-exl-4p-cvt-wmimagem11302630727.jpg"
     },
     {
+        "id_veiculo": 6,
         "modelo_veiculo": "TOYOTA SUPRA",
         "descricao_veiculo": "3.0 I6 TURBO GASOLINA A91-CF EDITION AUTOMÁTICO",
         "valor_veiculo": "R$ 1.350.000",
@@ -80,137 +82,7 @@ const database = [
         "kilometragem_veiculo": 0,
         "ano_veiculo": "2021/2022",
         "imagem_veiculo": "https://image.webmotors.com.br/_fotos/anunciousados/gigante/2022/202210/20221013/toyota-supra-3.0-i6-turbo-gasolina-a91cf-edition-automatico-wmimagem15195706416.jpg"
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    {
-        "modelo_veiculo": "",
-        "descricao_veiculo": "",
-        "valor_veiculo": "",
-        "cor_veiculo": "",
-        "portas_veiculo": ,
-        "combustivel_veiculo": "",
-        "categoria_veiculo": "",
-        "cambio_veiculo": "",
-        "kilometragem_veiculo": ,
-        "ano_veiculo": "",
-        "imagem_veiculo": ""
-    },
-    // {
-    //     "modelo_veiculo": "",
-    //     "descricao_veiculo": "",
-    //     "valor_veiculo": "",
-    //     "cor_veiculo": "",
-    //     "portas_veiculo": ,
-    //     "combustivel_veiculo": "",
-    //     "categoria_veiculo": "",
-    //     "cambio_veiculo": "",
-    //     "kilometragem_veiculo": ,
-    //     "ano_veiculo": "",
-    //     "imagem_veiculo": ""
-    // }
+    }
 ]
 
 export {database}
